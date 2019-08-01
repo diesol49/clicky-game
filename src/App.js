@@ -1,26 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    cards,
+    score: 0,
+    highschore: 0
+  };
+  // set up the gameover screen
+  // below, it states that if the score is 
+  // greater than the high score, we then set
+  // the state of the score to the highscore
+  gameOver = () => {
+    if (this.state.score > this.state.highschore) {
+      this.setState({highschore: this.state.score}, function() {
+        console.log(this.state.highschore);
+      });
+    }
+    this.state.cards.forEach(card => {
+      card.count = 0;
+    });
+    alert(`Uh OH! \nscore: ${this.state.score}`);
+    this.setState({score: 0});
+    return true;
+  }
+
 }
 
 export default App;
