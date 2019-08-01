@@ -42,6 +42,22 @@ class App extends Component {
       }
     });
   }
+  // this will render a card component for our objects that require a card
+  render() {
+    return (
+      <Wrapper>
+        <Header score={this.state.score} highschore={this.state.highschore}>Clicky Clack, Clack, Clack</Header>
+        {this.state.cards.map(card => {
+          <Card 
+          clickCount={this.clickCount}
+          id={card.id}
+          key={card.id}
+          image={card.image}
+          />
+        })}
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
