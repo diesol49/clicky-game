@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Game of Thrones",
+        "image": "http://blog.addthiscdn.com/wp-content/uploads/2014/07/addthis-game-of-thrones-logo.png",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Breaking Bad",
+        "image": "https://yt3.ggpht.com/a/AGF-l79rcSfCz8vufHWw5DP4cTMYGvBpu135UlyfWw=s900-c-k-c0xffffffff-no-rj-mo",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Stranger Things",
+        "image": "https://res.cloudinary.com/teepublic/image/private/s--8wqKRZQj--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1482755311/production/designs/991823_1.jpg",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Luther",
+        "image": "https://www.on-magazine.co.uk/wp-content/uploads/luther-series-1-4-review-dvd-logo.jpg",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "Atlanta",
+        "image": "https://miro.medium.com/max/700/1*I7nI6jj2hQsaoYcf1Wz7zQ.png",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "True Detective",
+        "image": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2018/01/true-detective-logo-920x584.jpg",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Black Mirror",
+        "image": "https://www.techadvisor.co.uk/cmsdata/features/3648054/black-mirror-logo_thumb900_1-1.jpg",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name": "Rick & Morty",
+        "image": "https://nothingbutgeek.com/wp-content/uploads/2017/06/RAM_LOGO_FINAL.jpg",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name": "Fargo",
+        "image": "https://entertainmentblur.files.wordpress.com/2014/08/fargo-tv-logo.jpg",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name": "Parks and Recreation",
+        "image": "https://fanart.tv/fanart/tv/84912/hdtvlogo/parks-and-recreation-5419df561622e.png",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name": "Man Seeking Woman",
+        "image": "http://s18292.pcdn.co/wp-content/uploads/2015/01/Screen-Shot-2015-01-16-at-22.09.22.png",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name": "Penny Dreadful",
+        "image": "https://blog.redbubble.com/wp-content/uploads/2019/05/pennydreadful-logo.jpg",
+        "count": 0
+    }
+    {
+        "id": 13,
+        "name": "The Assasination of Gianni Versace",
+        "image": "https://occ-0-1068-92.1.nflxso.net/dnm/api/v6/0DW6CdE4gYtYx8iy3aj8gs9WtXE/AAAABapN3PO5xjlAAuGFzWpbL4dIlFMJi9v4LSWVpQOhRvFeNCxy0EOWB5RO9ovYo3zOflXsI9xCy9LwksaPijFRzzKz4fbiKRHvpw.jpg?r=908",
+        "count": 0
+    },
+    {
+        "id": 14,
+        "name": "Sherlock",
+        "image": "https://www.on-magazine.co.uk/wp-content/uploads/sherlock-complete-series-review-dvd-logo.jpg",
+        "count": 0
+    }
+    {
+        "id": 15,
+        "name": "Chernobyl",
+        "image": "https://cdn.images.express.co.uk/img/dynamic/20/750x445/1147533.jpg",
+        "count": 0
+    },
+    {
+        "id": 16,
+        "name": "WestWorld",
+        "image": "https://fsmedia.imgix.net/e8/1e/5d/cc/228a/4e36/b3f4/bb185c96ed02/old-school-westworld-logo-in-chestnut.png?auto=format%2Ccompress&w=1200",
+        "count": 0
+    }
+]
