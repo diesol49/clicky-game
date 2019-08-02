@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Card from "./components/Card";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import cards from "./cards.json";
+
 
 class App extends Component {
   state = {
@@ -46,9 +50,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highschore={this.state.highschore}>Clicky Clack, Clack, Clack</Header>
+        <Header score={this.state.score} highscore={this.state.highschore}>Clicky Clack, Clack, Clack</Header>
         {this.state.cards.map(card => {
-          <Card 
+        return <Card 
           clickCount={this.clickCount}
           id={card.id}
           key={card.id}
