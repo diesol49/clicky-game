@@ -1,5 +1,4 @@
 # Clicky Game :smiley:
-***
 
 ## What is it? :information_desk_person: :fearful:
 This is a memory game, that is themed around my favorite tv shows.
