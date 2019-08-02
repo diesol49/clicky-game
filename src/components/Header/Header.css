@@ -1,15 +1,19 @@
-.header {
+.jumbotron {
     width: 100%;
     font-size: 2rem;
-    color: #2A77AE;
+    color: rgb(34, 45, 48);
     margin-bottom: 10px;
+    text-align: center;
+    background-color: #A461FF;
+    
   }
   
   .title {
     float: left;
+    color: rgba(255, 255, 255, 0.76)
   }
   
   .scores {
     float: right;
+    color: white;
   }
-  

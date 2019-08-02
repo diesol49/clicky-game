@@ -29,7 +29,7 @@ class App extends Component {
     this.setState({score: 0});
     return true;
   }
-
+  // keep track of our clicks & score count
   clickCount = id => {
     this.state.cards.find((o, i) => {
       if (o.id === id) {
@@ -50,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highschore}>Clicky Clack, Clack, Clack</Header>
+        <Header score={this.state.score} highscore={this.state.highschore}>Clicky Game: Click as many as you can without repeating</Header>
         {this.state.cards.map(card => {
         return <Card 
           clickCount={this.clickCount}
